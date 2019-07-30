@@ -1,0 +1,19 @@
+{
+  "name": "google-sheets-remote-schema",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Praveen",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.6.7",
+    "esm": "^3.2.25",
+    "graphql": "^14.4.2",
+    "graphql-type-json": "^0.3.0",
+    "node-fetch": "^2.6.0"
+  }
+}
